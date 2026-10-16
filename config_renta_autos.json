@@ -1,0 +1,17 @@
+{
+ "moneda": "USD", "unidad_precio": 1000000, "volumenes": [1000, 10000, 1000000],
+ "modelo_base": "gpt-5.6-sol",
+ "escenarios": [
+  {"nombre": "E1: QC+RC", "tokens_entrada": 34, "tokens_salida": 343},
+  {"nombre": "E2: QC+RL", "tokens_entrada": 34, "tokens_salida": 3287},
+  {"nombre": "E3: QL+RC", "tokens_entrada": 60, "tokens_salida": 343},
+  {"nombre": "E4: QL+RL", "tokens_entrada": 60, "tokens_salida": 3287}
+ ],
+ "modelos": [
+  {"nombre": "gpt-5.6-sol", "precio_entrada": 5, "precio_salida": 30, "fuente": "gptforwork.com", "fecha_precio": "2026-10-09"},
+  {"nombre": "claude-opus-5", "precio_entrada": 5, "precio_salida": 25, "fuente": "gptforwork.com", "fecha_precio": "2026-10-09"},
+  {"nombre": "gemini-2.5-pro", "precio_entrada": 1.25, "precio_salida": 10, "fuente": "gptforwork.com", "fecha_precio": "2026-10-09"},
+  {"nombre": "gpt-5.6-luna", "precio_entrada": 0.20, "precio_salida": 1.20, "fuente": "gptforwork.com", "fecha_precio": "2026-10-09"},
+  {"nombre": "gpt-4o-mini", "precio_entrada": 0.15, "precio_salida": 0.60, "fuente": "gptforwork.com", "fecha_precio": "2026-10-09"}
+ ]
+}
